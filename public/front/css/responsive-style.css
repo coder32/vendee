@@ -1,0 +1,145 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Small */
+@media (max-width: 1280px){
+
+.main-nav .nav > li > a span{ padding:0 20px;}
+.banner-tagline{ top:25%; left:10%; right:10%;}
+}
+@media(max-width:1200px){
+	.signup_box h3{ width:100%; text-align:center;}
+	.social-right{ padding-bottom:0;}
+	.loginWithtw{ margin-bottom:10px;}
+	.loginWithFb{ margin-bottom:10px;}
+	.loginWithGg{ margin-bottom:10px;}
+	.loginWithtw button{padding: 0 7px;}
+}
+@media(max-width:767px){
+	.navbar-default .navbar-toggle{background: #225899;}
+	.navbar-default .navbar-toggle .icon-bar { background-color: #fff;}
+	.navbar-default .navbar-toggle:hover .icon-bar{background-color: #225899;}
+	.navbar-nav > li{ width:100%; border-bottom:1px solid #409ed9;}
+	.main-nav .nav > li > a { padding: 3px 0;}
+	.main-nav .nav > li > a span { border-right:none; padding-left:20px;transition: all 0.3s ease 0s;}
+	.main-nav .nav > li:hover  > a span{padding-left:25px;transition: all 0.3s ease 0s;}
+	.banner-tagline{left: 20%;right: 20%;top:20%;}
+	.banner-tagline h2{ font-size:24px;}
+	.banner-tagline h3{ font-size:16px;}
+	.media-carousel {padding: 40px 10px 30px 10px;}
+	.media-carousel .carousel-control.right { right: -9px;}
+	.media-carousel .carousel-control.left { left: -29px;}
+	.checkbox{ margin-left:0;}
+	.img-card ul li { width: 134px;}
+	.cart_summary .table > tbody > tr > td, .table > tbody > tr > th, .cart_summary .table > tfoot > tr > td, .table > tfoot > tr > th, .cart_summary .table > thead > tr > td, .table > thead > tr > th{ padding:10px 5px;}
+	.top-bar{ padding:1px 10px}
+	.group-button-header .hr:last-child .pull-right{ float:left !important; margin-top:-30px !important;}
+	.group-button-header .hr:first-child{ margin-top:10px;}
+	}
+	@media(max-width:991px) {
+		.main-tabs .product_cont ul li .img_cont{ width:100%;}
+		
+		}
+
+@media(max-width:991px) and (min-width: 768px){
+	.container {width:750px;} 
+	.box-1 {float:none; width: 268px; margin:5px auto;}
+	.box-2 {float:none; width: 268px; margin:5px auto;}
+	.box-3 {float:none; width: 268px; margin:5px auto;}
+	.media-carousel .carousel-control.right { right: -1px;}
+	.media-carousel .carousel-control.left { left: -81px;}
+	.main-nav .nav > li > a span{ padding:0 7px;}
+	.banner-tagline {top: 30%;}
+	.banner-tagline h2{ font-size:40px;left: 10%;right: 10%;}
+	.banner-tagline h3{ font-size:20px;}
+	.registration{ padding-left:40px;}
+	.col-sm-3 .btn{ font-size:14px;}
+	.stepwizard{ width:80%;}.loginWithtw{ margin-bottom:10px;}
+	.loginWithFb{ margin-bottom:10px;}
+	.loginWithGg{ margin-bottom:10px;}
+}
+
+@media(max-width:767px){
+	#navbar	{ height:149px; overflow:hidden;}
+	.registration{ padding-left:30px;}
+	.s-links ul{ padding-top:20px;}
+	.developed-by {padding: 70px 0 0 0;}
+	.s-links ul li{margin: 20px 0px 15px 7px;}
+	.s-links ul{ padding-top:20px; margin-top:-110px;}
+	.footer-info h6{ margin-bottom:30px;}
+	.carousel-controls{ top:49%;}
+	.main-header .header-search-box{ padding:0 0 10px 0;}
+	.logo { text-align:center !important;}
+	.logo img { float: none; }
+	.banner-boder-zoom{ height:auto;}
+	.banner-boder-zoom img{ width:100%;}.stepwizard{ width:100%; margin-top:20px;}
+	.profile-data{ padding-left:0;}
+	.myaccount_msg ul li a{ margin-top:0;}
+	.bucks{ padding:10px;}
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{ padding-left:10px; padding-right:10px;}
+	.row{ margin-left:-10px; margin-right:-10px;}
+	.container-fluid{ padding-left:10px; padding-right:10px;}
+	.main-header{padding-left:10px; padding-right:10px;}
+	.main-header .row{ margin-left:-0px; margin-right:-0px;}
+	.signup_box{ margin:0 10px;}
+	.p-sm-0{ padding:0;}
+	
+}
+@media(max-width:766px) and (min-width: 481px){
+.media-carousel .carousel-control.left {
+    left: -45px;
+	
+}
+#content4 .col-xs-12 {width: 50% !important;}
+#content3 .col-xs-12 {width: 50% !important;}
+#content2 .col-xs-12 {width: 50% !important;}
+#content1 .col-xs-12 {width: 50% !important;}
+.media-carousel .carousel-control.right { right: -20px;}
+.profile_p .col-xs-12 {width: 100% !important;}
+#left_column .banner-boder-zoom{ width:48%; float:left;}
+#left_column .premium_product{ width:48%; float:right;}
+}
+@media(max-width:600px){
+	.group-button-header .hr:first-child{ margin-top:0px;}
+	.group-button-header .hr:first-child .user-links2{ width:40%;max-width: 158px;}
+	.group-button-header .hr:first-child .user-links2 ul li{ border:none; float:left; padding:0 0 10px 10px;}
+	.group-button-header .hr:last-child .pull-right{ margin-top:-50px !important; margin-bottom:0px !important;}
+	}
+@media(max-width:480px){
+	.banner-tagline{left: 1%;right: 1%;top:20%;}
+	.banner-tagline h2{ font-size:18px !important; margin-bottom:5px !important;line-height: 1px !important;padding-bottom: 10px;}
+	.banner-tagline h3{ font-size:13px; padding-bottom:10px;}
+	.logo{ text-align:center; width:100%; margin-bottom:10px;}
+	.logo img{ text-align:center; width:50%; margin-bottom:20px;}
+	.feature .icon { width: 100%;}
+	.join-us .photo { width: 100%; float: none; text-align: center; margin: 0 auto;}
+	.join-us .user-det {width: 100%; padding-top:10px;}
+	.join-us .user-det h6{ margin-bottom:5px;}
+	.exec-board-photo{ margin:0 auto 10px auto; float:none;}
+	.publications{ width:100%; float:left; text-align:center; margin-bottom:20px;}
+	.welcome-section h5{ padding-bottom:10px;}
+	.registration-form{ padding-right:0;}
+	.btn{ font-size:18px;}
+	.join-us h4{ text-align:center;}
+	.feature h4{ text-align:center;}
+	.carousel-controls{ top:49.5%;}
+	.mt-sm-3x{ margin-top:30px;}
+	.feature-box h4{ text-align:center;}
+	.exec-board-det p span.pr-2x{ padding-right:1px;}
+	.image-preview-input{ padding:3px 12px;}
+	.img-card ul li { width: 120px;}.stepwizard-step{ width:auto; margin-top:-30px;}
+	.stepwizard-row .stepwizard-step:first-child{ margin-top:0;}
+	.myaccount_msg ul li a{ font-size:11px}
+	.main-tabs .product_cont ul li .img_cont{ max-width:200px;}
+	.group-button-header .hr:first-child .user-links2 ul li{ float:right; text-align:right;}
+	
+}
+
+@media(min-width:768px){
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -100px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -100px;
+}
+}
+.img-responsive img{ width:100%; margin-bottom:10px;}

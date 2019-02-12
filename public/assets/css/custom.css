@@ -1,0 +1,126 @@
+.bootstrap-select.with-border .dropdown-toggle::after { display: none;}
+
+
+/**/
+
+
+.intro-banner.big-padding {
+    padding:25vh 0;
+}
+
+.intro-banner {
+    min-height: 100vh;
+}
+
+.skill_main{
+    font-size: 16px;
+    text-decoration: none;
+    color:#ff2222;
+}
+
+.skillList {
+    background-color: #f3f3f3;
+    padding: 50px 0 50px;
+}
+.skillList h3 {
+    margin: 30px 0;
+}
+.skillList ul {
+    margin:0 0 30px;
+    padding:0;
+    list-style: none;
+}
+.btnWrap {
+    text-align: center;
+}
+
+
+.downloadApp {
+    text-align: center;
+    padding:50px 0;
+}
+
+/*Login*/
+
+
+.loginBg {
+    background: url("../../images/loginbg.jpg") center/cover no-repeat;
+    height: 350px;
+}
+
+
+
+
+
+/*-------------Admin-------------*/
+
+
+
+
+.social-login-buttons a
+{
+    order-radius: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 9px 5px;
+    max-width: 50%;
+    transition: 0.3s;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+
+
+/*-------------Media-------------*/
+
+
+@media (min-width:576px) {
+
+
+
+}
+
+@media (min-width:768px) {
+
+
+
+}
+
+@media (min-width:992px) {
+
+
+
+}
+
+@media (min-width:1200px) {
+
+
+
+}
+
+@media (max-width:575.98px) {
+
+
+
+}
+
+@media (max-width:767.98px) {
+
+
+
+}
+
+@media (max-width:991.98px) {
+
+
+
+}
+
+@media (max-width:1199.98px) {
+
+
+
+}

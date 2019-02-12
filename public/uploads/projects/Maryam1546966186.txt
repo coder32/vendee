@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Css internal</title>
+<style>
+Body
+{
+Background-color:orange;
+}
+</style>
+</head>
+<body bgcolor="skyblue">
+I am usman....
+</body>
+</html>
